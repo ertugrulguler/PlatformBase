@@ -1,10 +1,17 @@
-﻿namespace PlatformBase.Core.Abstract
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace PlatformBase.Core.Abstract
 {
     public abstract class Entity
     {
-        public bool Success { get; set; }
-        public bool FromCache { get; set; }
-        public string ErrorMessage { get; set; }
-        public string UserMessage { get; set; }
+        [Key]
+        public Guid Id { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime? ModifiedDate { get; set; }
+        public bool IsActive { get; set; }
+        public void SetIsActive(bool value)
+        {
+            IsActive = value;
+        }
     }
 }
