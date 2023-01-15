@@ -1,8 +1,8 @@
 ﻿using System.Linq.Expressions;
 using PlatformBase.Core.Abstract;
-using PlatformBase.Core.Concrete;
+using PlatformBase.Domain.Concrete;
 
-namespace PlatformBase.Repository.Abstract
+namespace PlatformBase.Domain.Abstract
 {
     public interface IGenericRepository<T> where T : Entity
     {

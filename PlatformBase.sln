@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformBase.Core", "PlatformBase.Core\PlatformBase.Core.csproj", "{1AD15646-E0BF-4E74-A0EE-94F441A4638D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformBase.Core", "PlatformBase.Core\PlatformBase.Core.csproj", "{1AD15646-E0BF-4E74-A0EE-94F441A4638D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformBase.Repository", "PlatformBase.Repository\PlatformBase.Repository.csproj", "{29C6A47E-08EA-46B1-9923-119E40F41FA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformBase.Repository", "PlatformBase.Repository\PlatformBase.Repository.csproj", "{29C6A47E-08EA-46B1-9923-119E40F41FA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformBase.Domain", "PlatformBase.ApiContract\PlatformBase.Domain.csproj", "{4A1554E5-1B8B-484D-BC36-C430DC136E5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{29C6A47E-08EA-46B1-9923-119E40F41FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29C6A47E-08EA-46B1-9923-119E40F41FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29C6A47E-08EA-46B1-9923-119E40F41FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1554E5-1B8B-484D-BC36-C430DC136E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1554E5-1B8B-484D-BC36-C430DC136E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1554E5-1B8B-484D-BC36-C430DC136E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1554E5-1B8B-484D-BC36-C430DC136E5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,8 @@
-﻿using PlatformBase.Repository.Abstract;
-using System.Linq.Expressions;
+﻿using System.Linq.Expressions;
 using PlatformBase.Core.Abstract;
 using Microsoft.EntityFrameworkCore;
-using PlatformBase.Core.Concrete;
+using PlatformBase.Domain.Concrete;
+using PlatformBase.Domain.Abstract;
 
 namespace PlatformBase.Repository.Concrete
 {
@@ -57,20 +57,17 @@ namespace PlatformBase.Repository.Concrete
             return await _entities.Where(predicate).Where(s => s.IsActive == isActive).CountAsync();
         }
 
-        public async Task<PagedList<T>> FilterByPagingAsync(Expression<Func<T, bool>> predicate, PagerInput pagerInput, bool isActive = true)
+        public async Task<PagedList<T>> FilterByPagingAsync(Expression<Func<T, bool>> predicate, Domain.Concrete.PagerInput pagerInput, bool isActive = true)
         {
-            {
-                var itemsCount = await CountAsync(predicate);
+            var itemsCount = await CountAsync(predicate);
 
-                var list = await _entities.Where(predicate).Where(s => s.IsActive == isActive).OrderByDescending(c => c.CreatedDate)
-                    .Skip((pagerInput.PageIndex - 1) * pagerInput.PageSize)
-                    .Take(pagerInput.PageSize)
-                    .ToListAsync();
+            var list = await _entities.Where(predicate).Where(s => s.IsActive == isActive).OrderByDescending(c => c.CreatedDate)
+                .Skip((pagerInput.PageIndex - 1) * pagerInput.PageSize)
+                .Take(pagerInput.PageSize)
+                .ToListAsync();
 
-                return new PagedList<T>(list, itemsCount, pagerInput);
-            }
+            return new PagedList<T>(list, itemsCount, pagerInput);
         }
-
         public async Task<bool> Exist(Expression<Func<T, bool>> predicate)
         {
             var exist = _entities.Where(predicate);

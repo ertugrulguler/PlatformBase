@@ -1,0 +1,12 @@
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Core\bin\Debug\net6.0\PlatformBase.Core.deps.json
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Core\bin\Debug\net6.0\PlatformBase.Core.dll
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Core\bin\Debug\net6.0\PlatformBase.Core.pdb
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Core\obj\Debug\net6.0\PlatformBase.Core.csproj.AssemblyReference.cache
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Core\obj\Debug\net6.0\PlatformBase.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Core\obj\Debug\net6.0\PlatformBase.Core.AssemblyInfoInputs.cache
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Core\obj\Debug\net6.0\PlatformBase.Core.AssemblyInfo.cs
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Core\obj\Debug\net6.0\PlatformBase.Core.csproj.CoreCompileInputs.cache
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Core\obj\Debug\net6.0\PlatformBase.Core.dll
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Core\obj\Debug\net6.0\refint\PlatformBase.Core.dll
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Core\obj\Debug\net6.0\PlatformBase.Core.pdb
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Core\obj\Debug\net6.0\ref\PlatformBase.Core.dll

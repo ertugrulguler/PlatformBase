@@ -1,0 +1,17 @@
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\bin\Debug\net6.0\PlatformBase.Repository.deps.json
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\bin\Debug\net6.0\PlatformBase.Repository.dll
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\bin\Debug\net6.0\PlatformBase.Repository.pdb
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\bin\Debug\net6.0\PlatformBase.Core.dll
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\bin\Debug\net6.0\PlatformBase.Domain.dll
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\bin\Debug\net6.0\PlatformBase.Domain.pdb
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\bin\Debug\net6.0\PlatformBase.Core.pdb
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\obj\Debug\net6.0\PlatformBase.Repository.csproj.AssemblyReference.cache
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\obj\Debug\net6.0\PlatformBase.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\obj\Debug\net6.0\PlatformBase.Repository.AssemblyInfoInputs.cache
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\obj\Debug\net6.0\PlatformBase.Repository.AssemblyInfo.cs
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\obj\Debug\net6.0\PlatformBase.Repository.csproj.CoreCompileInputs.cache
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\obj\Debug\net6.0\PlatformBase.Repository.csproj.CopyComplete
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\obj\Debug\net6.0\PlatformBase.Repository.dll
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\obj\Debug\net6.0\refint\PlatformBase.Repository.dll
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\obj\Debug\net6.0\PlatformBase.Repository.pdb
+C:\Users\ertugrul.guler\source\repos\PlatformBase\PlatformBase.Repository\obj\Debug\net6.0\ref\PlatformBase.Repository.dll

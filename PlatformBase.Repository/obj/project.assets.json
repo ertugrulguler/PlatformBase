@@ -1056,6 +1056,19 @@
         "runtime": {
           "bin/placeholder/PlatformBase.Core.dll": {}
         }
+      },
+      "PlatformBase.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PlatformBase.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PlatformBase.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlatformBase.Domain.dll": {}
+        }
       }
     }
   },
@@ -3230,13 +3243,19 @@
       "type": "project",
       "path": "../PlatformBase.Core/PlatformBase.Core.csproj",
       "msbuildProject": "../PlatformBase.Core/PlatformBase.Core.csproj"
+    },
+    "PlatformBase.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PlatformBase.ApiContract/PlatformBase.Domain.csproj",
+      "msbuildProject": "../PlatformBase.ApiContract/PlatformBase.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.2",
-      "PlatformBase.Core >= 1.0.0"
+      "PlatformBase.Core >= 1.0.0",
+      "PlatformBase.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3267,6 +3286,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\ertugrul.guler\\source\\repos\\PlatformBase\\PlatformBase.ApiContract\\PlatformBase.Domain.csproj": {
+              "projectPath": "C:\\Users\\ertugrul.guler\\source\\repos\\PlatformBase\\PlatformBase.ApiContract\\PlatformBase.Domain.csproj"
+            },
             "C:\\Users\\ertugrul.guler\\source\\repos\\PlatformBase\\PlatformBase.Core\\PlatformBase.Core.csproj": {
               "projectPath": "C:\\Users\\ertugrul.guler\\source\\repos\\PlatformBase\\PlatformBase.Core\\PlatformBase.Core.csproj"
             }
