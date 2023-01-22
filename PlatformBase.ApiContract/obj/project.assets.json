@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "PlatformBase.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/PlatformBase.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PlatformBase.Core.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "PlatformBase.Core/1.0.0": {
-      "type": "project",
-      "path": "../PlatformBase.Core/PlatformBase.Core.csproj",
-      "msbuildProject": "../PlatformBase.Core/PlatformBase.Core.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "PlatformBase.Core >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\ertugrul.guler\\.nuget\\packages\\": {}
@@ -32,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ertugrul.guler\\source\\repos\\PlatformBase\\PlatformBase.ApiContract\\PlatformBase.Domain.csproj",
-      "projectName": "PlatformBase.Domain",
-      "projectPath": "C:\\Users\\ertugrul.guler\\source\\repos\\PlatformBase\\PlatformBase.ApiContract\\PlatformBase.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ertugrul.guler\\source\\repos\\PlatformBase\\PlatformBase.ApiContract\\PlatformBase.ApiContract.csproj",
+      "projectName": "PlatformBase.ApiContract",
+      "projectPath": "C:\\Users\\ertugrul.guler\\source\\repos\\PlatformBase\\PlatformBase.ApiContract\\PlatformBase.ApiContract.csproj",
       "packagesPath": "C:\\Users\\ertugrul.guler\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ertugrul.guler\\source\\repos\\PlatformBase\\PlatformBase.ApiContract\\obj\\",
       "projectStyle": "PackageReference",
@@ -53,11 +34,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\ertugrul.guler\\source\\repos\\PlatformBase\\PlatformBase.Core\\PlatformBase.Core.csproj": {
-              "projectPath": "C:\\Users\\ertugrul.guler\\source\\repos\\PlatformBase\\PlatformBase.Core\\PlatformBase.Core.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -7,11 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Enums\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\PlatformBase.Core\PlatformBase.Core.csproj" />
+    <Folder Include="Contract\" />
+    <Folder Include="Response\" />
+    <Folder Include="Request\" />
   </ItemGroup>
 
 </Project>

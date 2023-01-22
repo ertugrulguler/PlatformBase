@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0F+PGM0KiBpkOO5LRpZdgp49nqBKbIjAOm77oc1/BEy9eX9Z9skVVtoMLa12OkwJovzc2UfXlYALB1tR55YyjA==",
+  "dgSpecHash": "zF3iJbtId8OAxa5quy/8g6IMKNaRHApV9LXWdDDvEawDhCtkPNCwWrYGnlMcDdjs5CTFujEjdgPIY2FtwTp9PA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ertugrul.guler\\source\\repos\\PlatformBase\\PlatformBase.ApiContract\\PlatformBase.Domain.csproj",
+  "projectFilePath": "C:\\Users\\ertugrul.guler\\source\\repos\\PlatformBase\\PlatformBase.ApiContract\\PlatformBase.ApiContract.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
